@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.android.numismaticsquiz.ResultActivity">
+
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="YOUR SCORE IS"
+        android:textAlignment="center"
+        android:textSize="60sp"/>
+
+    <TextView
+        android:id="@+id/teks_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="test"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="80sp"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_start_button"
+        android:text="Next"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nice try, learn more!"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click NEXT to see answers"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>
+

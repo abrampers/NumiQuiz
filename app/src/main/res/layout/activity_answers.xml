@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.numismaticsquiz.AnswersActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the current currency of Vatican?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Euro"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the science that studies coins?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Numismatics"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which currency did the Euro replace in Germany?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Deutsche Mark"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which country is this money from?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:src="@drawable/usd"/>
+
+            <TextView
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="United States of America"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is this coin made from?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:src="@drawable/roman_coin"/>
+
+            <TextView
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Gold"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the fractional unit of Belarusian Ruble?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Kopek"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the current currency of Poland?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Zloty"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which country uses Euro as their currency?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/a8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Slovenia, Spain"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which country is this coin from?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:src="@drawable/portuguese_coin"/>
+
+            <TextView
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Portugal"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingTop="16dp"
+            android:elevation="4dp"
+            android:background="@drawable/shape_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/n10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. "
+                    android:textSize="24dp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/i10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which country is this money from?"
+                    android:textSize="24sp"
+                    android:textColor="#424242"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:src="@drawable/russian_notes"/>
+
+            <TextView
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Russia"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#757575"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/retry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_start_button"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"
+            android:text="RESTART"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>
